@@ -10,5 +10,5 @@ body {
   background-color: #eee;
 }
 .container {
-  width:1000px;
+  width:1000px !important;
 }
