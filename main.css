@@ -2,6 +2,9 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  background-image: url('background-beautiful.gif');
+  background-position: top center;
+  background-repeat: repeat-y;
 }
 .grey {
   background-color: #eee;
