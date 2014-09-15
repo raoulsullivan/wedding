@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stephen's portfolio</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+        <!-- Optional theme -->
+        <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Stephen's portfolio</a>
+                    <a class="navbar-brand" href="http://uk.linkedin.com/in/stephenraoulsullivan/">LinkedIn</a>
+                    <a class="navbar-brand" href="https://github.com/raoulsullivan">GitHub</a>
+                    <a class="navbar-brand" href="#databases">Databases</a>
+                    <a class="navbar-brand" href="#collaboration">Collaboration tools</a>
+                    <a class="navbar-brand" href="#other">Other</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Salla and Raoul's wedding</h1>
+                <p>17th - 19th July, 2015</p>
+                <p>Storfinnhova Gård, Kemiönsaari, Suomi</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4>Databases</h4>
+                  </div>
+                  <div class="panel-body">
+                    <p>I have spent a lot of time organising and cleaning data for various clients. I've worked up from Excel (not a database!) and Access to MySQL and Postgres, and across to Google Sheets (not a database!) and other API driven randomness. I've even played with Elasticsearch (not a database!). Experience is generally in building or repairing something to meet immediate business needs, which means I appreciate a good bit of design but understand how to put something flexible together before the use case has fully settled.</p>
+                    <a href="#databases" class="btn btn-default">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4>Collaboration tools</h4>
+                  </div>
+                  <div class="panel-body">
+                    <p>I have spent several years setting up Project Management Offices and some time improving office administration and processes in general. This generally involves ensuring the proper tools are in place to enable effective collaboration across geographies, times, cultures and organisations. A good tool set can remove worries about who has the latest file or where the minutes are kept to enable PMO staff to actually manage projects. Yes, I can use SharePoint.</p>
+                    <a href="#collaboration" class="btn btn-default">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4>Random cool stuff</h4>
+                  </div>
+                  <div class="panel-body">
+                    <p>Random cool stuff generally includes machine learning at the moment, because the one thing more satisfying than sorting your pencils by colour is building a machine to do it for you. At time of writing I'm at the end of the doing some training on this, and have just joined Kaggle. I also like hacking together web applications and a bit of hardware work occasionally - some of this may be relevant in a professional context!</p>
+                    <a href="#other" class="btn btn-default">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <a id="databases"></a>
+              <h2 class="page-header">Databases</h2>
+              <h3>Marketing databases</h3>
+              <h4><a href="https://www.check-business.co.uk">Check Business</a>, <a href="http://www.fundingoptions.com">Funding Options</a></h4>
+              <p>Combining data from different sources to build up co-ordinated, multi-channel, semi-automated marketing process. Technolgies include Google+, Twitter APIs, MySQL, Python, various email APIs, plenty of pen and paper... Learnt about how a correctly tailored, targeted and timed email has a surprisingly high chance of getting read and generating engagement, and how to get that working at scale.</p>
+                <h3>Software licensing database</h3>
+                <h4><a href="http://www.jaguarlandrover.com/">Jaguar Land Rover</a></h4>
+                <p>An Access database sitting ontop of Tivoli logs and an ITIL IT architecture to generate impact of infrastructure changes and user uplift on license requirements. Then wrapped in a lovely Access frontend to make it useful to business users.</p>
+              <h3>Training materials database</h3>
+              <h4><a href="http://www.pwc.co.uk/">PwC</a></h4>
+              <p>An Access database to track training materials across different training modules. Allowed one to see the impact of copyright expiry or similar on a training portfolio and schedule reviews of the materials.</p>
+              <h3>Contacts database</h3>
+              <h4><a href="http://www.ewi.info/">EastWest Institute</a></h4>
+              <p>Before Google Sheets and AWS, it was a time of Access and Excel... Used a range of 'power user' techniques,  a team of interns and a mild case of OCD to clean up a profusion of 'databases', managed to get them integrated with a publications and conference process and in a state to comply with European law.</p>
+            </div>
+            <div class="row">
+              <a id="collaboration"></a>
+              <h2 class="page-header">Collaboration tools</h2>
+                <h3>SharePoint development</h3>
+                <h4><a href="http://www.jaguarlandrover.com/">Jaguar Land Rover</a>, <a href="http://alainzoo.ae/">Al Ain Zoo</a></h4>
+                <p>Front end development and administration of SharePoint sites. But not just using the SharePoint UI! In an effort to deliver more valuable functionality, I've built some quite interesting front-end plug ins, mostly using the amazing <a href="http://spservices.codeplex.com/">SPServices</a> library to query other databases and push it to pages on SharePoint. I'm particularly proud of database-driven interactive IT architecture diagrams, using the Raphael SVG library, which made exploring complex IT landscapes whilst keeping a canonical record of what was in them a lot easier. Other cool stuff involved using similar front-end techniques to navigate huge document libraries by tags based on the folder structure - again, using technology to make knowledge management less painful.</p>
+                <h3>Google Drive PMO suite</h3>
+                <h4><a href="http://www.jaguarlandrover.com/">Jaguar Land Rover</a></h4>
+                <p>Rebuilding a Project Management Office tool suite (timesheets, risks &amp; issues, database-driven contact list, communications site) in Google Docs. Not particularly technical, but very satisfying to enable a global PMO team. Learnt the hard way about filters on Google Spreadsheets...</p>
+              <h3>Google Drive conference booking</h3>
+              <h4><a href="http://www.eap-csf.eu/">Eastern Partnership Civil Society Forum</a></h4>
+              <p>Google form, but with <a href="http://cloudlab.newvisions.org/add-ons/autocrat">Autocrat</a> driving the production and emailing of PDF application packs to appropriate voting bodies to decide on conference attendence.</p>
+            </div>
+            <div class="row">
+              <a id="other"></a>
+              <h2 class="page-header">Random cool stuff</h2>
+              <h3>Beyond Spreadsheets - database-as-a-service webapp</h3>
+              <h4>For myself</h4>
+              <p>A MySQL driven database on the Web. I'm not going to show the code to anyone because it didn't work out in the end and I made some hideous mistakes, but some of the front end frameworks I experimented with were interesting. Inluded Knockout JS, Raphael and the D3 visualisation/data-binding library. Back end in PHP/MySQL.</p>
+              <h3><a href="http://raoulsullivan.github.io/checklister/">Checklister</a> - voice controlled Trello checklists</h3>
+              <h4>For the fun of it</h4>
+              <p>Uses the Annyang library, Trello API and HTML5 Speech Synthesis to do voice-controlled checklists. Hands-free shopping list? Check. Contributes to the KSP community? Check.</p>
+              <h3><a href="https://raoulsullivan.shinyapps.io/assignment/">Iris classifier</a> - practical machine learning</h3>
+              <h4>Coursera data science</h4>
+              <p>Uses shiny (R library) and a simple random forests algorithm to do machine learning classification. Never be confused between a versicolor, setosa or virginica again...</p>
+              <h3>Scrapy bot</h3>
+              <h4>Can't say</h4>
+              <p>Using the power of Bing and the fantastic Scrapy library to do some (responsible, robots.txt obeying, non-abusive) scraping. Learnt quite a lot obout optimising Scrapy and just how big the World Wide Web is.</p>
+            </div>
+            <hr>
+            <footer>
+            <p>&copy; Beyond Spreadsheets Ltd 2014</p>
+            </footer>
+        </div> <!-- /container -->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
