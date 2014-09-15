@@ -9,3 +9,6 @@ body {
 .grey {
   background-color: #eee;
 }
+.container {
+  width:1000px;
+}
