@@ -1,14 +1,46 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
   background-image: url('background-beautiful.gif');
   background-position: top center;
   background-repeat: repeat-y;
+  font-family: sans-serif;
 }
 .grey {
   background-color: #eee;
 }
 .container {
   width:1000px !important;
+  margin: auto;
+  padding-right: 10px;
+}
+h1 {
+    text-align: center;
+}
+h5 {
+    margin-bottom: 0.1em;
+}
+div.subheading {
+    text-align: center;
+    font-style: italic;
+}
+img.silly {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: black;
+    border-width: 0px 2px 2px 0px;
+    border-style: solid;
+}
+img.silly:hover {
+    border-width: 2px 0 0 2px;
+    border-color: white;
+}
+ul.blob li {
+    list-style-type: none;
 }
