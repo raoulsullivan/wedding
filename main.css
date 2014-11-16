@@ -45,3 +45,6 @@ img.silly:hover {
 ul.blob li {
     list-style-type: none;
 }
+ul.blob li span {
+    font-weight: bold;
+}
