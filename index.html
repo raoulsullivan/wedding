@@ -8,7 +8,7 @@
         <title>Salla and Raoul's wedding</title>
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="main.css">
         <link href='http://fonts.googleapis.com/css?family=Concert+One|Lobster+Two' rel='stylesheet' type='text/css'>
         <!--[if lt IE 9]>
@@ -36,26 +36,26 @@
               <ul class="blob">
                   <li><a href="http://www.matkahuolto.info/lippu/en/connection?date=1.8.2014&departureId=112083&connectionId1=118052&connectionId2=119178&firstChangeDepartureStopAreaId1=3580314&firstChangeDepartureStopAreaId2=3835955&secondChangeDepartureStopAreaId1=3835966&secondChangeDepartureStopAreaId2=3897591&departureStopAreaId=12591&arrivalStopAreaId=329"><img class="silly" src="matkahuollon-thumb.png"></a><span>2pm</span> Bus from Helsinki airport. We might hire a coach
                 </li>
-                <li><img class="silly" src="paarma-thumb.png"><span>6pm</span> Arrival at venue, introduction to mosquitoes </li>
-                <li><a href="https://www.youtube.com/watch?v=XuhGiV-xg-A"><img class="silly" src="sauna-cats-thumb.png"></a><span>6pm</span> Pre-wedding BBQ, sauna
-                <li><a href="http://hipsterbeersnob.com/the-greatest-beer-in-the-world/"><img class="silly" src="delerium-tremens.png"></a><span>8pm</span> Beers.</li>
+                <li><a onclick="showPicture('paarma.jpg')"><img class="silly" src="paarma-thumb.png"></a><span>6pm</span> Arrival at venue, introduction to mosquitoes </li>
+                <li><a onclick="showVideo('XuhGiV-xg-A')"><img class="silly" src="sauna-cats-thumb.png"></a><span>6pm</span> Pre-wedding BBQ, sauna
+                <li><a href="http://hipsterbeersnob.com/the-greatest-beer-in-the-world/" target="_blank"><img class="silly" src="delerium-tremens.png"></a><span>8pm</span> Beers.</li>
                 </li>
-                <li><img class="silly" src="finland_stolen_sunset_1_thumb.png"><span>10:35pm</span> Sunset</li>
+                <li><a onclick="showPicture('finland_stolen_sunset_1.jpg')"><img class="silly" src="finland_stolen_sunset_1_thumb.png"></a><span>10:35pm</span> Sunset</li>
               </ul>
               <h5>Saturday 18th July</h5>
               <ul class="blob">
-                  <li><img class="silly" src="finland_stolen_sunrise_1_thumb.png"><span>4:36am</span> Dawn</li>
-                  <li><img class="silly" src="pimms-oclock.png"><span>12pm</span> Wedding brunch. Alternatives to pickled herring may be available.</li>
-                  <li><img class="silly" src="meanwhile-thumb.png"><span>6pm</span> Admin - Speeches, rings, vows, etc</li>
-                  <li><img class="silly" src="herring-thumb.png"><span>7pm</span> The main event - dinner. Pickled herring for all!</li>
-                  <li><span>9pm</span> I guess there has to be music</li>
-                  <li><img class="silly" src="finland_stolen_sunset_2_thumb.png"><span>10:33pm</span> Sunset</li>
+                <li><a onclick="showPicture('finland_stolen_sunrise_1.jpg')"><img class="silly" src="finland_stolen_sunrise_1_thumb.png"></a><span>4:36am</span> Dawn</li>
+                <li><a onclick="showPicture('pimms.jpg')"><img class="silly" src="pimms-oclock.png"></a><span>12pm</span> Wedding brunch. Alternatives to pickled herring may be available.</li>
+                <li><a onclick="showPicture('meanwhile.jpg')"><img class="silly" src="meanwhile-thumb.png"></a><span>6pm</span> Admin - Speeches, rings, vows, etc</li>
+                <li><a onclick="showPicture('herring.jpg')"><img class="silly" src="herring-thumb.png"></a><span>7pm</span> The main event - dinner. Pickled herring for all!</li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img class="silly" src="hamstermusic.png"></a><span>9pm</span> I guess there has to be music</li>
+                  <li><a onclick="showPicture('finland_stolen_sunset_2.jpg')"><img class="silly" src="finland_stolen_sunset_2_thumb.png"></a><span>10:33pm</span> Sunset</li>
               </ul>
               <h5>Sunday 19th July</h5>
               <ul class="blob">
                   <li><img class="silly" src="animatedsylvia.gif"><span>12am</span> Sylvia Sullivan's birthday! Party harder! </li>
-                  <li><img class="silly" src="finland_stolen_sunrise_2_thumb.png"><span>4:38am</span> Dawn</li>
-                  <li><a href="http://www.visitfinland.com/"><img class="silly" src="owl-thumb.png"></a><span>12pm</span> Go away now please </li>
+                  <li><a onclick="showPicture('finland_stolen_sunrise_2.jpg')"><img class="silly" src="finland_stolen_sunrise_2_thumb.png"></a><span>4:38am</span> Dawn</li>
+                  <li><a href="http://www.visitfinland.com/" target="_blank"><img class="silly" src="owl-thumb.png"></a><span>12pm</span> Go away now please </li>
               </ul>
             </div>
             <div class="row">
@@ -77,15 +77,22 @@
               <h5>How do I get to Finland?</h5>
               <p>BA, Finnair from Heathrow to Helsinki. Takes about 3hrs, costs about £200 for a return</p>
               <p>If you can't fly, I suggest rail - London -> Paris -> Copenhagen -> Stockholm, then ferry to Turku.</p>
-			  <h5>Ok, I'm in - what do?</h5>
+              <h5>Ok, I'm in - what do?</h5>
               <p>Email us</p>
             </div>
           </div> <!-- /container -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              </div>
+            </div>
+          </div>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="pointless.js"></script>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </body>
 </html>

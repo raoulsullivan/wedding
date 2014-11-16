@@ -39,6 +39,9 @@ img.silly {
     border-width: 0px 2px 2px 0px;
     border-style: solid;
 }
+img.bigsilly {
+    max-width:800px;
+}
 img.silly:hover {
     border-width: 2px 0 0 2px;
     border-color: white;
@@ -49,4 +52,11 @@ ul.blob li {
 ul.blob li span {
     font-weight: bold;
     background-color: #b0c4de;
+}
+div.modal-content{
+    text-align: center;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
